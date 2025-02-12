@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.3dd9e88b.css",
-    "main.js": "/interactive-board/static/js/main.ac8acb54.js",
+    "main.css": "/interactive-board/static/css/main.0d1d2f52.css",
+    "main.js": "/interactive-board/static/js/main.999dcfdc.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
     "static/media/lab2.png": "/interactive-board/static/media/lab2.57d3bc261fa9a3aa451b.png",
     "static/media/labsShi.png": "/interactive-board/static/media/labsShi.57ded5e5a2f7243d9eb7.png",
     "static/media/404.jpg": "/interactive-board/static/media/404.c0137bea1447bca28392.jpg",
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
+    "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.3dd9e88b.css.map": "/interactive-board/static/css/main.3dd9e88b.css.map",
-    "main.ac8acb54.js.map": "/interactive-board/static/js/main.ac8acb54.js.map"
+    "main.0d1d2f52.css.map": "/interactive-board/static/css/main.0d1d2f52.css.map",
+    "main.999dcfdc.js.map": "/interactive-board/static/js/main.999dcfdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dd9e88b.css",
-    "static/js/main.ac8acb54.js"
+    "static/css/main.0d1d2f52.css",
+    "static/js/main.999dcfdc.js"
   ]
 }

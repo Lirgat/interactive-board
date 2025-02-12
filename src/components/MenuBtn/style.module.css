@@ -1,0 +1,17 @@
+.MainNav {
+    color: #9fb2e3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    transition: .2s;
+}
+
+.MainNav:hover {
+    color: #23408a;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.active {
+  color: #23408a!important;
+  border: 1px solid #23408a;
+  border-radius: 30px;
+}
+
+.swiper-slide-active img {
+  max-width: 800px;
+  box-shadow: -37px 0px 31px 20px rgba(113, 128, 225, 0.48);
+}
+
+/* Общие настройки для скроллбара */
+::-webkit-scrollbar {
+  width: 15px; /* Ширина скроллбара */
+}
+
+/* Фон скроллбара (трек) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона трека */
+  border-radius: 5px; /* Скругление углов трека */
+}
+
+/* Ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  transition: .2s;
+  background: rgba(113, 128, 225); /* Фиолетовый цвет ползунка */
+  border-radius: 5px; /* Скругление углов ползунка */
+  border: 2px solid #f1f1f1; /* Добавляем границу для контраста */
+}
+
+/* Эффект наведения на ползунок */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(75, 93, 216); 
+}

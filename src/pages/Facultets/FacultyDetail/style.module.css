@@ -1,0 +1,63 @@
+.VideFrame {
+    margin: 0px 50px 50px 50px;
+    border: 10px solid rgb(75, 93, 216);
+    border-radius: 30px;
+    z-index: 9999999;
+}
+
+.DetailPage {
+    background-image: url("../../../assets/images/purpleShadow.png");
+    width: 100%;
+    min-height: 1600px;
+    padding: 0px 150px 150px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.TextBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 130px 0 130px;
+}
+
+.DescriptionBlock, .OptionalDescriptionBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Name {
+    color: #23408a;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.Description {
+    color: #23408a;
+    font-size: 1.6rem;
+    max-width: 700px;
+}
+
+.OptionalDescriptionBlock {
+    align-self: flex-end;
+    max-width: 600px;
+}
+
+.LabsShi {
+    overflow-x: unset;
+    max-width: 600px;
+    right: -290px;
+    position: absolute;
+}
+
+.Lab2 {
+    width: 100%;
+    top: -80px;
+    left: -170%;
+    position: absolute;
+}

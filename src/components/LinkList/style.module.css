@@ -1,0 +1,16 @@
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Navigation__link {
+    color: #9fb2e3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    transition: .2s;
+    padding: 10px 20px 10px 20px;
+}

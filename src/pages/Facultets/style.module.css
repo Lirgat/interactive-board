@@ -1,0 +1,32 @@
+.Image {
+    max-width: 600px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.Swiper {
+    margin-top: 50px;
+}
+
+.Slide {
+    padding: 50px;
+    width: 45%;
+}
+
+.Link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #23408a;
+    font-size: 1.6rem;
+    font-weight: bold;
+    gap: 10px;
+    text-wrap: wrap;
+}
+
+.Name {
+    text-align: center;
+    max-width: 600px;
+}

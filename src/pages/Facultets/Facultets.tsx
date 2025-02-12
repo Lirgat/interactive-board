@@ -27,7 +27,7 @@ const Facultets: FC = (): JSX.Element => {
     >
       {faculties.map((faculty) => (
         <SwiperSlide className={style.Slide} key={faculty.id}>
-          <Link className={style.Link} to={`/facultets/fac-detail/${faculty.id}`}>
+          <Link className={style.Link} to={`/interactive-board/facultets/fac-detail/${faculty.id}`}>
             <img
               className={style.Image}
               src={faculty.preview}

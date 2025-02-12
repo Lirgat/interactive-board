@@ -5,7 +5,7 @@
 }
 
 .Swiper {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .Slide {
@@ -19,14 +19,15 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #23408a;
-    font-size: 1.6rem;
+    color: #9fb2e3;
+    font-size: 1.5rem;
     font-weight: bold;
     gap: 10px;
     text-wrap: wrap;
 }
 
 .Name {
+    transition: .3s;
     text-align: center;
     max-width: 600px;
 }

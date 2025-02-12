@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "ALS";
+  src: url("./assets/fonts/alssectorregular-regular.woff2");
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "ALS", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -11,14 +16,18 @@ body {
 }
 
 .active {
-  color: #23408a!important;
-  border: 1px solid #23408a;
+  color: #FFFFFF!important;
+  background-color: #23408a;
   border-radius: 30px;
 }
 
 .swiper-slide-active img {
   max-width: 800px;
   box-shadow: -37px 0px 31px 20px rgba(113, 128, 225, 0.48);
+}
+
+.swiper-slide-active h2 {
+  color: #23408a;
 }
 
 /* Общие настройки для скроллбара */

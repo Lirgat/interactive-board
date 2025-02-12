@@ -11,10 +11,10 @@ function App() {
       <BrowserRouter>
         <HeaderComponent></HeaderComponent>
         <Routes>
-          <Route path="/interactive-board" element={<Navigate to={"/facultets"}/>}/>
-          <Route path="/facultets" element={<Facultets />}/>
-          <Route path="/kafedry" element={<Kafedry />}/>
-          <Route path="/facultets/fac-detail/:id" element={<FacultyDetail />}/>
+          <Route path="/interactive-board" element={<Navigate to={"/interactive-board/facultets"}/>}/>
+          <Route path="/interactive-board/facultets" element={<Facultets />}/>
+          <Route path="/interactive-board/kafedry" element={<Kafedry />}/>
+          <Route path="/interactive-board/facultets/fac-detail/:id" element={<FacultyDetail />}/>
         </Routes>
       </BrowserRouter>
     </>

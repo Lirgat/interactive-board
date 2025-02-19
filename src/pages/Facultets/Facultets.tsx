@@ -7,6 +7,8 @@ import style from "./style.module.css";
 import { Autoplay } from "swiper/modules";
 
 const Facultets: FC = (): JSX.Element => {
+  
+  // Достаём из стора массив объектов факультетов
   const faculties: StoreItem[] = store.faculties;
 
   return (

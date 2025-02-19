@@ -7,9 +7,9 @@ import LinkList from "../LinkList/LinkList.tsx";
 const HeaderComponent: FC = (): JSX.Element => {
   return (
       <header className={style.Header}>
-        <Logo></Logo>
+        <Logo/>
         {/* <MenuBtn></MenuBtn> */}
-        <LinkList></LinkList>
+        <LinkList/>
       </header>
   );
 };

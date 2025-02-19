@@ -6,9 +6,13 @@ import labFirst from "../../../assets/images/labsShi.png";
 import labSecond from "../../../assets/images/lab2.png";
 
 const FacultyDetail: FC = (): JSX.Element => {
+  // Достаём id факультета из url
   const { id } = useParams<{ id: string }>();
+
+  // Находим нужный факультет в сторе сравнивая с id из url
   const faculty = store.faculties.find((faculty) => faculty.id === id);
 
+  // Обработка ошибки при которой не находится необходимый факультет
   if (!faculty) {
     return <div>Непредвиденная ошибка</div>;
   }

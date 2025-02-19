@@ -1,3 +1,4 @@
+/* Основной шрифт */
 @font-face {
   font-family: "ALS";
   src: url("./assets/fonts/alssectorregular-regular.woff2");
@@ -15,17 +16,20 @@ body {
   overflow-x: hidden;
 }
 
+/* Активный класс для ссылок навигации */
 .active {
   color: #FFFFFF!important;
   background-color: #23408a;
   border-radius: 30px;
 }
 
+/* Класс для img в активном слайдере */
 .swiper-slide-active img {
   max-width: 800px;
   box-shadow: -37px 0px 31px 20px rgba(113, 128, 225, 0.48);
 }
 
+/* Класс для заголовка в активном слайдере */
 .swiper-slide-active h2 {
   color: #23408a;
 }
@@ -35,7 +39,7 @@ body {
   width: 15px; /* Ширина скроллбара */
 }
 
-/* Фон скроллбара (трек) */
+/* Фон скроллбара */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; /* Цвет фона трека */
   border-radius: 5px; /* Скругление углов трека */
@@ -44,7 +48,7 @@ body {
 /* Ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
   transition: .2s;
-  background: rgba(113, 128, 225); /* Фиолетовый цвет ползунка */
+  background: rgba(113, 128, 225); /* Цвет ползунка */
   border-radius: 5px; /* Скругление углов ползунка */
   border: 2px solid #f1f1f1; /* Добавляем границу для контраста */
 }

@@ -16,6 +16,7 @@ function App() {
           <Route path="/interactive-board/facultets" element={<Facultets />}/>
           <Route path="/interactive-board/kafedry" element={<Kafedry />}/>
           <Route path="/interactive-board/facultets/fac-detail/:id" element={<FacultyDetail />}/>
+          {/* Вместо ошибки 404 нас будет перекидывать на главную страницу, т.к с pages что-то не то */}
           <Route path="*" element={<Navigate to={"/interactive-board/facultets"}/>}/>
         </Routes>
       </BrowserRouter>

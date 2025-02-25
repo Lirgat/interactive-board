@@ -26,6 +26,7 @@ body {
 /* Класс для img в активном слайдере */
 .swiper-slide-active img {
   max-width: 800px;
+  max-height: 560px;
   box-shadow: -37px 0px 31px 20px rgba(113, 128, 225, 0.48);
 }
 

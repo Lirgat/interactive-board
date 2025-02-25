@@ -1,8 +1,32 @@
 .Header {
+    position: fixed;
+    top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 100px;
     padding: 35px 50px 50px 35px;
     align-items: center;
+    transition: .3s;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.invisibleBlock {
+    height: 180px;
+}
+
+.Sticky {
+    z-index: 99999999;
+    position: fixed;
+    animation: display .5s ease-out forwards;
+}
+
+@keyframes display {
+    0%{
+        top: -300px;
+    }
+    100% {
+        top: 0px;
+    }
 }

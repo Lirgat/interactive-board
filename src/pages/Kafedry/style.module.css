@@ -1,0 +1,52 @@
+.KafedraWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 200px 30px 200px;
+}
+
+.KafedraBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #23408a;
+}
+
+.KafedraBlock__h2 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.KafedraList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.KafedraItem {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    max-width: 45%;
+    text-decoration: none;
+    color: #042883;
+}
+
+.KafedraItem__img {
+    
+  box-shadow: 0px 0px 31px 20px rgba(113, 128, 225, 0.48);
+    border-radius: 50px;
+    width: 670px;
+    height: 430px;
+    object-fit: cover;
+}

@@ -1,6 +1,18 @@
+// Превью факультетов
 import vetFac from "../assets/images/vetFac.png";
 import zooFac from "../assets/images/photo_mumu.jpg";
-import kinCollege from "../assets/images/kin.jpg"
+import kinCollege from "../assets/images/kin.jpg";
+
+//Превьюхи кафедр
+///ФВМ
+import anat from "../assets/images/kafedry/fvm/anat.jpg"
+import vetMed from "../assets/images/kafedry/fvm/vet-med.jpg"
+import bolezni from "../assets/images/kafedry/fvm/bolezni.jpg"
+import patolog from "../assets/images/kafedry/fvm/patolog.png"
+import parazit from "../assets/images/kafedry/fvm/parazit.jpg"
+import farma from "../assets/images/kafedry/fvm/fizio-farma.png"
+import filosof from "../assets/images/kafedry/fvm/filosof.jpeg"
+import epizot from "../assets/images/kafedry/fvm/epizot.jpg"
 
 export interface Store {
   faculties: StoreItem[];
@@ -30,7 +42,6 @@ export interface FacultyKafedraList {
   facultyName: string; // Название факультета
   kafedraList: KafedraItem[]; // Массив кафедр данного факультета
 }
-
 
 export const store: Store = {
   faculties: [
@@ -74,17 +85,89 @@ export const store: Store = {
         "Кинологический колледж готовит высококвалифицированных специалистов по специальностям среднего профессионального образования 35.02.15 Кинология, 36.02.01 Ветеринария.",
       optionalDescription:
         "«Одним из важных условий успешной деятельности в кинологии и ветеринарии является любовь к животным.»",
-    }
+    },
   ],
   kafedry: [
     {
       facultyName: "Кафедры факультета ветеринарной медицины",
       kafedraList: [
         {
-          id: Date.now(),
+          id: 1,
+          preview: `${anat}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Анатомии и гистологии животных имени профессора А.Ф. Климова",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 2,
+          preview: `${vetMed}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Ветеринарной хирургии",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 3,
+          preview: `${bolezni}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Диагностики болезней, терапии, акушерства и репродукции животных",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 4,
+          preview: `${patolog}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Общей патологии имени В.М. Коропова",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 5,
+          preview: `${parazit}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Паразитологии и ветеринарно-санитарной экспертизы",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 6,
+          preview: `${farma}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Физиологии, фармакологии и токсикологии им. А.Н. Голикова и И.Е. Мозгова",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 7,
+          preview: `${filosof}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Философии и социально-гуманитарных наук",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 8,
+          preview: `${epizot}`,
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Эпизоотологии и организация ветеринарного дела",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 9,
           preview: "https://example.com/kafedra1.jpg",
           videoLink: "https://example.com/kafedra1.mp4",
-          name: "Кафедра №1",
+          name: "Базовая кафедра биологической безопасности объектов ветеринарного надзора и обращения лекарственных средств в ветеринарии",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 10,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Базовая кафедра инновационной ветеринарной медицины мелких домашних животных на базе ООО «ЛДВЦ МВА»",
           description: "Описание кафедры №1",
           optionalDescription: "Дополнительное описание кафедры №1",
         },
@@ -94,10 +177,66 @@ export const store: Store = {
       facultyName: "Кафедры факультета биотехнологии и экологии",
       kafedraList: [
         {
-          id: Date.now(),
+          id: 11,
           preview: "https://example.com/kafedra1.jpg",
           videoLink: "https://example.com/kafedra1.mp4",
-          name: "Кафедра №1",
+          name: "Иммунологии и биотехнологии",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 21,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Химии имени профессоров С.И. Афонского, А.Г. Малахова",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 31,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Вирусологии и микробиологии имени академика В.Н. Сюрина",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 41,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Радиобиологии и биофизики имени академика А.Д. Белова",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 51,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Базовая кафедра по биотехнологии",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 61,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Зоологии, экологии и охраны природы имени А.Г. Банникова",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 71,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Технологии и управления качеством продукции АПК имени С.А. Каспарьянца",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 81,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Физического воспитания",
           description: "Описание кафедры №1",
           optionalDescription: "Дополнительное описание кафедры №1",
         },
@@ -107,10 +246,66 @@ export const store: Store = {
       facultyName: "Кафедры факультета зоотехнологий и агробизнеса",
       kafedraList: [
         {
-          id: Date.now(),
+          id: 12,
           preview: "https://example.com/kafedra1.jpg",
           videoLink: "https://example.com/kafedra1.mp4",
-          name: "Кафедра №1",
+          name: "Генетики и разведения животных им. В.Ф. Красоты",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 22,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Зоогигиены и птицеводства им. А.К. Даниловой",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 32,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Кормления и кормопроизводства",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 42,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Частной зоотехнии",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 52,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Базовая кафедра генетических технологий в животноводстве",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 62,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Экономики и цифровых технологий в АПК",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 72,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Кафедра иностранных и русского языков",
+          description: "Описание кафедры №1",
+          optionalDescription: "Дополнительное описание кафедры №1",
+        },
+        {
+          id: 82,
+          preview: "https://example.com/kafedra1.jpg",
+          videoLink: "https://example.com/kafedra1.mp4",
+          name: "Базовая кафедра передовых технологий в птицеводстве",
           description: "Описание кафедры №1",
           optionalDescription: "Дополнительное описание кафедры №1",
         },

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.e1a0d3b0.css",
-    "main.js": "/interactive-board/static/js/main.15773f29.js",
+    "main.css": "/interactive-board/static/css/main.253efcc1.css",
+    "main.js": "/interactive-board/static/js/main.e3aa8a2b.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
     "static/media/fizio-farma.png": "/interactive-board/static/media/fizio-farma.51f82e265c16a39a1ce7.png",
@@ -19,11 +19,11 @@
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.e1a0d3b0.css.map": "/interactive-board/static/css/main.e1a0d3b0.css.map",
-    "main.15773f29.js.map": "/interactive-board/static/js/main.15773f29.js.map"
+    "main.253efcc1.css.map": "/interactive-board/static/css/main.253efcc1.css.map",
+    "main.e3aa8a2b.js.map": "/interactive-board/static/js/main.e3aa8a2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1a0d3b0.css",
-    "static/js/main.15773f29.js"
+    "static/css/main.253efcc1.css",
+    "static/js/main.e3aa8a2b.js"
   ]
 }

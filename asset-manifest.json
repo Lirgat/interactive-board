@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.adf9121e.css",
-    "main.js": "/interactive-board/static/js/main.d174d1a0.js",
+    "main.css": "/interactive-board/static/css/main.e1a0d3b0.css",
+    "main.js": "/interactive-board/static/js/main.15773f29.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
+    "static/media/fizio-farma.png": "/interactive-board/static/media/fizio-farma.51f82e265c16a39a1ce7.png",
     "static/media/lab2.png": "/interactive-board/static/media/lab2.57d3bc261fa9a3aa451b.png",
+    "static/media/vet-med.jpg": "/interactive-board/static/media/vet-med.ae9faa9ad8b46f6e26d8.jpg",
+    "static/media/patolog.png": "/interactive-board/static/media/patolog.dfa91094b1d100428519.png",
     "static/media/photo_mumu.jpg": "/interactive-board/static/media/photo_mumu.11a0435e2e707974a862.jpg",
     "static/media/labsShi.png": "/interactive-board/static/media/labsShi.57ded5e5a2f7243d9eb7.png",
     "static/media/kin.jpg": "/interactive-board/static/media/kin.d759923d7dddc8d200c0.jpg",
+    "static/media/filosof.jpeg": "/interactive-board/static/media/filosof.6ce740e2a54e2bd158e9.jpeg",
+    "static/media/bolezni.jpg": "/interactive-board/static/media/bolezni.a23e9c4a856843b9489d.jpg",
+    "static/media/anat.jpg": "/interactive-board/static/media/anat.40dc8b21a85c361d74ca.jpg",
+    "static/media/epizot.jpg": "/interactive-board/static/media/epizot.0803f6d3c87fd264f6c9.jpg",
+    "static/media/parazit.jpg": "/interactive-board/static/media/parazit.954cec2a2a4738d7336a.jpg",
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.adf9121e.css.map": "/interactive-board/static/css/main.adf9121e.css.map",
-    "main.d174d1a0.js.map": "/interactive-board/static/js/main.d174d1a0.js.map"
+    "main.e1a0d3b0.css.map": "/interactive-board/static/css/main.e1a0d3b0.css.map",
+    "main.15773f29.js.map": "/interactive-board/static/js/main.15773f29.js.map"
   },
   "entrypoints": [
-    "static/css/main.adf9121e.css",
-    "static/js/main.d174d1a0.js"
+    "static/css/main.e1a0d3b0.css",
+    "static/js/main.15773f29.js"
   ]
 }

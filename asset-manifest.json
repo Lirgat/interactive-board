@@ -1,29 +1,41 @@
 {
   "files": {
     "main.css": "/interactive-board/static/css/main.253efcc1.css",
-    "main.js": "/interactive-board/static/js/main.e3aa8a2b.js",
+    "main.js": "/interactive-board/static/js/main.31d37510.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
+    "static/media/himia.jpg": "/interactive-board/static/media/himia.2143dfac7b4c0221f6e3.jpg",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
     "static/media/fizio-farma.png": "/interactive-board/static/media/fizio-farma.51f82e265c16a39a1ce7.png",
+    "static/media/zoogigiena.jpg": "/interactive-board/static/media/zoogigiena.63127b281469218ca238.jpg",
     "static/media/lab2.png": "/interactive-board/static/media/lab2.57d3bc261fa9a3aa451b.png",
     "static/media/vet-med.jpg": "/interactive-board/static/media/vet-med.ae9faa9ad8b46f6e26d8.jpg",
     "static/media/patolog.png": "/interactive-board/static/media/patolog.dfa91094b1d100428519.png",
+    "static/media/radiobio.png": "/interactive-board/static/media/radiobio.8c2cf196240121b5ffae.png",
+    "static/media/genetiki.jpeg": "/interactive-board/static/media/genetiki.e64414d2c4704ddc3f28.jpeg",
     "static/media/photo_mumu.jpg": "/interactive-board/static/media/photo_mumu.11a0435e2e707974a862.jpg",
+    "static/media/bazbioteh.jpg": "/interactive-board/static/media/bazbioteh.9cfe12b995a8324b6c18.jpg",
     "static/media/labsShi.png": "/interactive-board/static/media/labsShi.57ded5e5a2f7243d9eb7.png",
     "static/media/kin.jpg": "/interactive-board/static/media/kin.d759923d7dddc8d200c0.jpg",
+    "static/media/ldvc.jpg": "/interactive-board/static/media/ldvc.8a6439fe63cd24448906.jpg",
+    "static/media/zoolog.jpg": "/interactive-board/static/media/zoolog.644d53ac656bbda05b58.jpg",
+    "static/media/fizra.jpg": "/interactive-board/static/media/fizra.1c0f8ccaa92addc6ad94.jpg",
     "static/media/filosof.jpeg": "/interactive-board/static/media/filosof.6ce740e2a54e2bd158e9.jpeg",
+    "static/media/virus.jpg": "/interactive-board/static/media/virus.4f8afe7e92be8130986d.jpg",
     "static/media/bolezni.jpg": "/interactive-board/static/media/bolezni.a23e9c4a856843b9489d.jpg",
     "static/media/anat.jpg": "/interactive-board/static/media/anat.40dc8b21a85c361d74ca.jpg",
+    "static/media/biobez.jpg": "/interactive-board/static/media/biobez.41187fde015ac2b5a3cb.jpg",
+    "static/media/tehnologii.jpg": "/interactive-board/static/media/tehnologii.af76000fd82773363f67.jpg",
     "static/media/epizot.jpg": "/interactive-board/static/media/epizot.0803f6d3c87fd264f6c9.jpg",
     "static/media/parazit.jpg": "/interactive-board/static/media/parazit.954cec2a2a4738d7336a.jpg",
+    "static/media/imun.jpg": "/interactive-board/static/media/imun.c87862064fae1b103a86.jpg",
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
     "main.253efcc1.css.map": "/interactive-board/static/css/main.253efcc1.css.map",
-    "main.e3aa8a2b.js.map": "/interactive-board/static/js/main.e3aa8a2b.js.map"
+    "main.31d37510.js.map": "/interactive-board/static/js/main.31d37510.js.map"
   },
   "entrypoints": [
     "static/css/main.253efcc1.css",
-    "static/js/main.e3aa8a2b.js"
+    "static/js/main.31d37510.js"
   ]
 }

@@ -13,6 +13,22 @@ import parazit from "../assets/images/kafedry/fvm/parazit.jpg"
 import farma from "../assets/images/kafedry/fvm/fizio-farma.png"
 import filosof from "../assets/images/kafedry/fvm/filosof.jpeg"
 import epizot from "../assets/images/kafedry/fvm/epizot.jpg"
+import biobez from "../assets/images/kafedry/fvm/biobez.jpg"
+import ldvc from "../assets/images/kafedry/fvm/ldvc.jpg"
+
+///ФБИЭ
+import imun from "../assets/images/kafedry/fbie/imun.jpg"
+import himia from "../assets/images/kafedry/fbie/himia.jpg"
+import virus from "../assets/images/kafedry/fbie/virus.jpg"
+import radiobio from "../assets/images/kafedry/fbie/radiobio.png"
+import bioteh from "../assets/images/kafedry/fbie/bazbioteh.jpg"
+import zoologia from "../assets/images/kafedry/fbie/zoolog.jpg"
+import tehkaf from "../assets/images/kafedry/fbie/tehnologii.jpg"
+import fizra from "../assets/images/kafedry/fbie/fizra.jpg"
+
+///ФЗТА
+import genetika from "../assets/images/kafedry/fzta/genetiki.jpeg"
+import zoogigiena from "../assets/images/kafedry/fzta/zoogigiena.jpg"
 
 export interface Store {
   faculties: StoreItem[];
@@ -157,7 +173,7 @@ export const store: Store = {
         },
         {
           id: 9,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${biobez}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Базовая кафедра биологической безопасности объектов ветеринарного надзора и обращения лекарственных средств в ветеринарии",
           description: "Описание кафедры №1",
@@ -165,7 +181,7 @@ export const store: Store = {
         },
         {
           id: 10,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${ldvc}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Базовая кафедра инновационной ветеринарной медицины мелких домашних животных на базе ООО «ЛДВЦ МВА»",
           description: "Описание кафедры №1",
@@ -178,7 +194,7 @@ export const store: Store = {
       kafedraList: [
         {
           id: 11,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${imun}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Иммунологии и биотехнологии",
           description: "Описание кафедры №1",
@@ -186,7 +202,7 @@ export const store: Store = {
         },
         {
           id: 21,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${himia}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Химии имени профессоров С.И. Афонского, А.Г. Малахова",
           description: "Описание кафедры №1",
@@ -194,7 +210,7 @@ export const store: Store = {
         },
         {
           id: 31,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${virus}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Вирусологии и микробиологии имени академика В.Н. Сюрина",
           description: "Описание кафедры №1",
@@ -202,7 +218,7 @@ export const store: Store = {
         },
         {
           id: 41,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${radiobio}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Радиобиологии и биофизики имени академика А.Д. Белова",
           description: "Описание кафедры №1",
@@ -210,7 +226,7 @@ export const store: Store = {
         },
         {
           id: 51,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${bioteh}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Базовая кафедра по биотехнологии",
           description: "Описание кафедры №1",
@@ -218,7 +234,7 @@ export const store: Store = {
         },
         {
           id: 61,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${zoologia}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Зоологии, экологии и охраны природы имени А.Г. Банникова",
           description: "Описание кафедры №1",
@@ -226,7 +242,7 @@ export const store: Store = {
         },
         {
           id: 71,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${tehkaf}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Технологии и управления качеством продукции АПК имени С.А. Каспарьянца",
           description: "Описание кафедры №1",
@@ -234,7 +250,7 @@ export const store: Store = {
         },
         {
           id: 81,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${fizra}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Физического воспитания",
           description: "Описание кафедры №1",
@@ -247,7 +263,7 @@ export const store: Store = {
       kafedraList: [
         {
           id: 12,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${genetika}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Генетики и разведения животных им. В.Ф. Красоты",
           description: "Описание кафедры №1",
@@ -255,7 +271,7 @@ export const store: Store = {
         },
         {
           id: 22,
-          preview: "https://example.com/kafedra1.jpg",
+          preview: `${zoogigiena}`,
           videoLink: "https://example.com/kafedra1.mp4",
           name: "Зоогигиены и птицеводства им. А.К. Даниловой",
           description: "Описание кафедры №1",

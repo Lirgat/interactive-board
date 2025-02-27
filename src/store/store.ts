@@ -1,6 +1,7 @@
 // Превью факультетов
 import vetFac from "../assets/images/vetFac.png";
 import zooFac from "../assets/images/photo_mumu.jpg";
+import biofac from "../assets/images/biofac.jpg"
 import kinCollege from "../assets/images/kin.jpg";
 
 //Превьюхи кафедр
@@ -75,7 +76,7 @@ export const store: Store = {
     {
       id: 2,
       preview: `${zooFac}`,
-      videoLink: "https://example.com/faculty1.mp4",
+      videoLink: "https://vk.com/video_ext.php?oid=-103477801&id=456239691&hd=2&autoplay=1",
       name: "Факультет зоотехнологий и агробизнеса",
       description:
         "В настоящее время факультет зоотехнологий и агробизнеса готовит бакалавров по направлению 36.03.02 – «Зоотехния» на базе фундаментальных биологических и зоотехнических дисциплин. Срок обучения в бакалавриате 4 года очно и 5 лет заочно.",
@@ -94,8 +95,16 @@ export const store: Store = {
     },
     {
       id: 4,
+      preview: `${biofac}`,
+      videoLink: "https://vk.com/video_ext.php?oid=-103477801&id=456239710&hd=2&autoplay=1",
+      name: "Факультет биотехнологии и экологии",
+      description: "Сегодня факультет биотехнологии и экологии имеет все необходимые ресурсы для успешного развития образовательного потенциала.",
+      optionalDescription: "Факультет обладает современной материально-технической базой.  Специализированные лаборатории факультета оборудованы современными приборами и установками. Кафедры и аудитории оснащены компьютерами с выходом в Интернет с мультимедийным оборудованием.",
+    },
+    {
+      id: 5,
       preview: `${kinCollege}`,
-      videoLink: "https://example.com/faculty1.mp4",
+      videoLink: "https://vk.com/video_ext.php?oid=-103477801&id=456239710&hd=2&autoplay=1",
       name: "Кинологический колледж",
       description:
         "Кинологический колледж готовит высококвалифицированных специалистов по специальностям среднего профессионального образования 35.02.15 Кинология, 36.02.01 Ветеринария.",

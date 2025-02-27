@@ -1,5 +1,7 @@
 .Image {
-    max-width: 600px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
     border-radius: 20px;
     transition: .3s;
 }

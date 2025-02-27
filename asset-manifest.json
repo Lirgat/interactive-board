@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.253efcc1.css",
-    "main.js": "/interactive-board/static/js/main.31d37510.js",
+    "main.css": "/interactive-board/static/css/main.d16ff710.css",
+    "main.js": "/interactive-board/static/js/main.fb7df5c0.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/himia.jpg": "/interactive-board/static/media/himia.2143dfac7b4c0221f6e3.jpg",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
@@ -24,6 +24,7 @@
     "static/media/bolezni.jpg": "/interactive-board/static/media/bolezni.a23e9c4a856843b9489d.jpg",
     "static/media/anat.jpg": "/interactive-board/static/media/anat.40dc8b21a85c361d74ca.jpg",
     "static/media/biobez.jpg": "/interactive-board/static/media/biobez.41187fde015ac2b5a3cb.jpg",
+    "static/media/biofac.jpg": "/interactive-board/static/media/biofac.fb6dc3516617206ea245.jpg",
     "static/media/tehnologii.jpg": "/interactive-board/static/media/tehnologii.af76000fd82773363f67.jpg",
     "static/media/epizot.jpg": "/interactive-board/static/media/epizot.0803f6d3c87fd264f6c9.jpg",
     "static/media/parazit.jpg": "/interactive-board/static/media/parazit.954cec2a2a4738d7336a.jpg",
@@ -31,11 +32,11 @@
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.253efcc1.css.map": "/interactive-board/static/css/main.253efcc1.css.map",
-    "main.31d37510.js.map": "/interactive-board/static/js/main.31d37510.js.map"
+    "main.d16ff710.css.map": "/interactive-board/static/css/main.d16ff710.css.map",
+    "main.fb7df5c0.js.map": "/interactive-board/static/js/main.fb7df5c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.253efcc1.css",
-    "static/js/main.31d37510.js"
+    "static/css/main.d16ff710.css",
+    "static/js/main.fb7df5c0.js"
   ]
 }

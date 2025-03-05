@@ -1,0 +1,12 @@
+.Back__btn {
+    position: fixed;
+    cursor: pointer;
+    bottom: 30px;
+    left: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.Back__btn_img {
+    width: 100px;
+}

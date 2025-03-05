@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import style from "./style.module.css";
 import labFirst from "../../../assets/images/labsShi.png";
 import labSecond from "../../../assets/images/lab2.png";
+import BackBtn from "../../../components/BackBtn/BackBtn.tsx";
 
 const FacultyDetail: FC = (): JSX.Element => {
   // Достаём id факультета из url
@@ -40,6 +41,7 @@ const FacultyDetail: FC = (): JSX.Element => {
           <img className={style.Lab2} src={labSecond} alt="." />
         </div>
       </div>
+      <BackBtn></BackBtn>
     </div>
   );
 };

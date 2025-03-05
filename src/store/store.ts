@@ -6,6 +6,7 @@ import kinCollege from "../assets/images/kin.jpg";
 
 //Превьюхи кафедр
 ///ФВМ
+import fvmLogo from "../assets/images/kafedry/facLogo/fvm_100.jpg"
 import anat from "../assets/images/kafedry/fvm/anat.jpg"
 import vetMed from "../assets/images/kafedry/fvm/vet-med.jpg"
 import bolezni from "../assets/images/kafedry/fvm/bolezni.jpg"
@@ -18,6 +19,7 @@ import biobez from "../assets/images/kafedry/fvm/biobez.jpg"
 import ldvc from "../assets/images/kafedry/fvm/ldvc.jpg"
 
 ///ФБИЭ
+import fbieLogo from "../assets/images/kafedry/facLogo/fbe_100.jpg"
 import imun from "../assets/images/kafedry/fbie/imun.jpg"
 import himia from "../assets/images/kafedry/fbie/himia.jpg"
 import virus from "../assets/images/kafedry/fbie/virus.jpg"
@@ -28,6 +30,7 @@ import tehkaf from "../assets/images/kafedry/fbie/tehnologii.jpg"
 import fizra from "../assets/images/kafedry/fbie/fizra.jpg"
 
 ///ФЗТА
+import fztaLogo from "../assets/images/kafedry/facLogo/fzta_100.jpg"
 import genetika from "../assets/images/kafedry/fzta/genetiki.jpeg"
 import zoogigiena from "../assets/images/kafedry/fzta/zoogigiena.jpg"
 
@@ -57,6 +60,7 @@ export interface KafedraItem {
 // Интерфейс для списка кафедр одного факультета
 export interface FacultyKafedraList {
   facultyName: string; // Название факультета
+  facLogo: string;
   kafedraList: KafedraItem[]; // Массив кафедр данного факультета
 }
 
@@ -115,6 +119,7 @@ export const store: Store = {
   kafedry: [
     {
       facultyName: "Кафедры факультета ветеринарной медицины",
+      facLogo: `${fvmLogo}`,
       kafedraList: [
         {
           id: 1,
@@ -200,6 +205,7 @@ export const store: Store = {
     },
     {
       facultyName: "Кафедры факультета биотехнологии и экологии",
+      facLogo: `${fbieLogo}`,
       kafedraList: [
         {
           id: 11,
@@ -269,6 +275,7 @@ export const store: Store = {
     },
     {
       facultyName: "Кафедры факультета зоотехнологий и агробизнеса",
+      facLogo: `${fztaLogo}`,
       kafedraList: [
         {
           id: 12,

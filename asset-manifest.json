@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.d16ff710.css",
-    "main.js": "/interactive-board/static/js/main.fb7df5c0.js",
+    "main.css": "/interactive-board/static/css/main.aaa07416.css",
+    "main.js": "/interactive-board/static/js/main.9ebe7603.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/himia.jpg": "/interactive-board/static/media/himia.2143dfac7b4c0221f6e3.jpg",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
@@ -30,13 +30,16 @@
     "static/media/parazit.jpg": "/interactive-board/static/media/parazit.954cec2a2a4738d7336a.jpg",
     "static/media/imun.jpg": "/interactive-board/static/media/imun.c87862064fae1b103a86.jpg",
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
+    "static/media/fvm_100.jpg": "/interactive-board/static/media/fvm_100.31ee2a938c160b9c3e2c.jpg",
+    "static/media/fzta_100.jpg": "/interactive-board/static/media/fzta_100.2ee69487ae56925e68b9.jpg",
+    "static/media/fbe_100.jpg": "/interactive-board/static/media/fbe_100.ca882f6c92eb087c40e7.jpg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.d16ff710.css.map": "/interactive-board/static/css/main.d16ff710.css.map",
-    "main.fb7df5c0.js.map": "/interactive-board/static/js/main.fb7df5c0.js.map"
+    "main.aaa07416.css.map": "/interactive-board/static/css/main.aaa07416.css.map",
+    "main.9ebe7603.js.map": "/interactive-board/static/js/main.9ebe7603.js.map"
   },
   "entrypoints": [
-    "static/css/main.d16ff710.css",
-    "static/js/main.fb7df5c0.js"
+    "static/css/main.aaa07416.css",
+    "static/js/main.9ebe7603.js"
   ]
 }

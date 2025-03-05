@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.aaa07416.css",
-    "main.js": "/interactive-board/static/js/main.9ebe7603.js",
+    "main.css": "/interactive-board/static/css/main.f9f65352.css",
+    "main.js": "/interactive-board/static/js/main.86fd2155.js",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/himia.jpg": "/interactive-board/static/media/himia.2143dfac7b4c0221f6e3.jpg",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
@@ -12,6 +12,7 @@
     "static/media/patolog.png": "/interactive-board/static/media/patolog.dfa91094b1d100428519.png",
     "static/media/radiobio.png": "/interactive-board/static/media/radiobio.8c2cf196240121b5ffae.png",
     "static/media/genetiki.jpeg": "/interactive-board/static/media/genetiki.e64414d2c4704ddc3f28.jpeg",
+    "static/media/academ.jpg": "/interactive-board/static/media/academ.aeac6c1a1e1a7fed4639.jpg",
     "static/media/photo_mumu.jpg": "/interactive-board/static/media/photo_mumu.11a0435e2e707974a862.jpg",
     "static/media/bazbioteh.jpg": "/interactive-board/static/media/bazbioteh.9cfe12b995a8324b6c18.jpg",
     "static/media/labsShi.png": "/interactive-board/static/media/labsShi.57ded5e5a2f7243d9eb7.png",
@@ -35,11 +36,11 @@
     "static/media/fbe_100.jpg": "/interactive-board/static/media/fbe_100.ca882f6c92eb087c40e7.jpg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.aaa07416.css.map": "/interactive-board/static/css/main.aaa07416.css.map",
-    "main.9ebe7603.js.map": "/interactive-board/static/js/main.9ebe7603.js.map"
+    "main.f9f65352.css.map": "/interactive-board/static/css/main.f9f65352.css.map",
+    "main.86fd2155.js.map": "/interactive-board/static/js/main.86fd2155.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaa07416.css",
-    "static/js/main.9ebe7603.js"
+    "static/css/main.f9f65352.css",
+    "static/js/main.86fd2155.js"
   ]
 }

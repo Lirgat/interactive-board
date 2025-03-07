@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.1e09152d.css",
-    "main.js": "/interactive-board/static/js/main.c0b0966a.js",
+    "main.css": "/interactive-board/static/css/main.c4e1fdf4.css",
+    "main.js": "/interactive-board/static/js/main.c7f4e911.js",
     "static/media/engrus.jpg": "/interactive-board/static/media/engrus.79c174ec75c2e1d32e08.jpg",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/himia.jpg": "/interactive-board/static/media/himia.2143dfac7b4c0221f6e3.jpg",
@@ -41,11 +41,11 @@
     "static/media/fbe_100.jpg": "/interactive-board/static/media/fbe_100.ca882f6c92eb087c40e7.jpg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.1e09152d.css.map": "/interactive-board/static/css/main.1e09152d.css.map",
-    "main.c0b0966a.js.map": "/interactive-board/static/js/main.c0b0966a.js.map"
+    "main.c4e1fdf4.css.map": "/interactive-board/static/css/main.c4e1fdf4.css.map",
+    "main.c7f4e911.js.map": "/interactive-board/static/js/main.c7f4e911.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e09152d.css",
-    "static/js/main.c0b0966a.js"
+    "static/css/main.c4e1fdf4.css",
+    "static/js/main.c7f4e911.js"
   ]
 }

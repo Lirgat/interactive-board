@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/interactive-board/static/css/main.f9f65352.css",
-    "main.js": "/interactive-board/static/js/main.86fd2155.js",
+    "main.css": "/interactive-board/static/css/main.1e09152d.css",
+    "main.js": "/interactive-board/static/js/main.c0b0966a.js",
+    "static/media/engrus.jpg": "/interactive-board/static/media/engrus.79c174ec75c2e1d32e08.jpg",
     "static/media/vetFac.png": "/interactive-board/static/media/vetFac.9b83b7ff5b8913f79b5c.png",
     "static/media/himia.jpg": "/interactive-board/static/media/himia.2143dfac7b4c0221f6e3.jpg",
+    "static/media/zooteh.jpg": "/interactive-board/static/media/zooteh.8b9b7da4900bce02f097.jpg",
     "static/media/purpleShadow.png": "/interactive-board/static/media/purpleShadow.204a003325f6faed673e.png",
+    "static/media/korm.jpg": "/interactive-board/static/media/korm.c5112154a2f8b182e234.jpg",
     "static/media/fizio-farma.png": "/interactive-board/static/media/fizio-farma.51f82e265c16a39a1ce7.png",
+    "static/media/bazgen.jpg": "/interactive-board/static/media/bazgen.65d87720f88ef29b9daf.jpg",
     "static/media/zoogigiena.jpg": "/interactive-board/static/media/zoogigiena.63127b281469218ca238.jpg",
     "static/media/lab2.png": "/interactive-board/static/media/lab2.57d3bc261fa9a3aa451b.png",
     "static/media/vet-med.jpg": "/interactive-board/static/media/vet-med.ae9faa9ad8b46f6e26d8.jpg",
@@ -16,11 +20,11 @@
     "static/media/photo_mumu.jpg": "/interactive-board/static/media/photo_mumu.11a0435e2e707974a862.jpg",
     "static/media/bazbioteh.jpg": "/interactive-board/static/media/bazbioteh.9cfe12b995a8324b6c18.jpg",
     "static/media/labsShi.png": "/interactive-board/static/media/labsShi.57ded5e5a2f7243d9eb7.png",
-    "static/media/kin.jpg": "/interactive-board/static/media/kin.d759923d7dddc8d200c0.jpg",
     "static/media/ldvc.jpg": "/interactive-board/static/media/ldvc.8a6439fe63cd24448906.jpg",
     "static/media/zoolog.jpg": "/interactive-board/static/media/zoolog.644d53ac656bbda05b58.jpg",
     "static/media/fizra.jpg": "/interactive-board/static/media/fizra.1c0f8ccaa92addc6ad94.jpg",
     "static/media/filosof.jpeg": "/interactive-board/static/media/filosof.6ce740e2a54e2bd158e9.jpeg",
+    "static/media/peredteh.jpg": "/interactive-board/static/media/peredteh.dfccdcad462161ef1ad2.jpg",
     "static/media/virus.jpg": "/interactive-board/static/media/virus.4f8afe7e92be8130986d.jpg",
     "static/media/bolezni.jpg": "/interactive-board/static/media/bolezni.a23e9c4a856843b9489d.jpg",
     "static/media/anat.jpg": "/interactive-board/static/media/anat.40dc8b21a85c361d74ca.jpg",
@@ -33,14 +37,15 @@
     "static/media/logo.svg": "/interactive-board/static/media/logo.f3ef130db434e769cfb52d04f5cda107.svg",
     "static/media/fvm_100.jpg": "/interactive-board/static/media/fvm_100.31ee2a938c160b9c3e2c.jpg",
     "static/media/fzta_100.jpg": "/interactive-board/static/media/fzta_100.2ee69487ae56925e68b9.jpg",
+    "static/media/fzao.jpg": "/interactive-board/static/media/fzao.4bd39e18b238cf007052.jpg",
     "static/media/fbe_100.jpg": "/interactive-board/static/media/fbe_100.ca882f6c92eb087c40e7.jpg",
     "static/media/alssectorregular-regular.woff2": "/interactive-board/static/media/alssectorregular-regular.9d3cf8731511013dd5a4.woff2",
     "index.html": "/interactive-board/index.html",
-    "main.f9f65352.css.map": "/interactive-board/static/css/main.f9f65352.css.map",
-    "main.86fd2155.js.map": "/interactive-board/static/js/main.86fd2155.js.map"
+    "main.1e09152d.css.map": "/interactive-board/static/css/main.1e09152d.css.map",
+    "main.c0b0966a.js.map": "/interactive-board/static/js/main.c0b0966a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9f65352.css",
-    "static/js/main.86fd2155.js"
+    "static/css/main.1e09152d.css",
+    "static/js/main.c0b0966a.js"
   ]
 }

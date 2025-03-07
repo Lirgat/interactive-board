@@ -11,7 +11,9 @@ const FacultyDetail: FC = (): JSX.Element => {
   const { id } = useParams<{ id: string }>();
 
   // Находим нужный факультет в сторе сравнивая с id из url
-  const faculty = store.faculties.find((faculty) => faculty.id.toString() === id);
+  const faculty = store.faculties.find(
+    (faculty) => faculty.id.toString() === id
+  );
 
   // Обработка ошибки при которой не находится необходимый факультет
   if (!faculty) {

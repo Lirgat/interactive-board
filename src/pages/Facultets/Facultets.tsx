@@ -22,7 +22,7 @@ const Facultets: FC = (): JSX.Element => {
       modules={[Autoplay]}
       autoplay={
         {
-            delay: 15000,
+            delay: 5000,
             disableOnInteraction: false
         }
       }

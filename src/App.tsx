@@ -5,15 +5,19 @@ import Kafedry from "./pages/Kafedry/Kafedry.tsx";
 import Facultets from "./pages/Facultets/Facultets.tsx";
 import FacultyDetail from "./pages/Facultets/FacultyDetail/FacultyDetail.tsx";
 import KafedryDetail from "./pages/Kafedry/KafedryDetail/KafedryDetail.tsx";
-import Academy from "./components/Academy/Academy.tsx";
+import Academy from "./pages/Academy/Academy.tsx";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.tsx";
+import VFacs from "./pages/VFacs/VFacs.tsx";
 // import NotFound from "./pages/404/NotFound.tsx";
 
 function App() {
   return (
     <>
       <BrowserRouter basename="/interactive-board">
+        <ScrollToTop /> {/* Компонент, который ничего не рендерит просто отрабатывает условия поднятие стр вверх*/}
         <HeaderComponent/>
         <Routes>
+          <Route path="/interactive-board/facultetsNew" element={<VFacs />}/>
           <Route path="/interactive-board" element={<Navigate to={"/interactive-board/facultets"}/>}/>
           <Route path="/interactive-board/facultets" element={<Facultets />}/>
           <Route path="/interactive-board/about" element={<Academy />} />

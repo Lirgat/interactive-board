@@ -1,0 +1,37 @@
+.Wrapper {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.Wrapper__fac {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    align-items: center;
+    justify-content: center;
+}
+
+.Image {
+    width: 200px;
+    height: 200px;
+}
+
+.Name {
+    max-width: 400px;
+    color: #23408a;
+    font-size: 2rem;
+}
+
+.MainWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

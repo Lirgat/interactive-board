@@ -1,3 +1,9 @@
 .Logo {
     max-width: 200px;
 }
+
+.RowWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

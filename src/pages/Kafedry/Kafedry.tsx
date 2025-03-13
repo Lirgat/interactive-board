@@ -17,7 +17,7 @@ const Kafedry:FC = ():JSX.Element => {
             {kafedras.map((fac) => {
                 return(
                     <div key={fac.facultyName} className={style.KafedraBlock}>
-                        <h2 className={style.KafedraBlock__h2}><img src={fac.facLogo} alt={fac.facultyName} />{fac.facultyName}</h2>
+                        <h2 className={style.KafedraBlock__h2}><img className={style.FacLogo} src={fac.facLogo} alt={fac.facultyName} />{fac.facultyName}</h2>
                         <div className={style.KafedraList}>
                         {fac.kafedraList.map((kafedra) => {
                             return(

@@ -54,3 +54,7 @@
     height: 430px;
     object-fit: cover;
 }
+
+.FacLogo {
+    max-width: 100px;
+}

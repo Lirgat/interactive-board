@@ -2,12 +2,12 @@
 import vetFac from "../assets/images/vetFac.png";
 import zooFac from "../assets/images/photo_mumu.jpg";
 import biofac from "../assets/images/biofac.jpg"
-import fzao from "../assets/images/fzao.jpg"
+import fzao from "../assets/images/kafedry/facLogo/fzao_100.jpg"
 // import kinCollege from "../assets/images/kin.jpg";
 
 //Превьюхи кафедр
 ///ФВМ
-import fvmLogo from "../assets/images/kafedry/facLogo/fvm_100.jpg"
+import fvmLogo from "../assets/images/kafedry/facLogo/fvm_100.png"
 import anat from "../assets/images/kafedry/fvm/anat.jpg"
 import vetMed from "../assets/images/kafedry/fvm/vet-med.jpg"
 import bolezni from "../assets/images/kafedry/fvm/bolezni.jpg"
@@ -31,7 +31,7 @@ import tehkaf from "../assets/images/kafedry/fbie/tehnologii.jpg"
 import fizra from "../assets/images/kafedry/fbie/fizra.jpg"
 
 ///ФЗТА
-import fztaLogo from "../assets/images/kafedry/facLogo/fzta_100.jpg"
+import fztaLogo from "../assets/images/kafedry/facLogo/fzta_100.png"
 import genetika from "../assets/images/kafedry/fzta/genetiki.jpeg"
 import zoogigiena from "../assets/images/kafedry/fzta/zoogigiena.jpg"
 import korm from "../assets/images/kafedry/fzta/korm.jpg"

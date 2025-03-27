@@ -1,0 +1,10 @@
+.GeorgLentWrapper {
+    position: fixed;
+    bottom: -20px;
+    right: -130px;
+    transform: scale(1.5);
+}
+
+.GeorgLent {
+    transform: rotate(-60deg);
+}

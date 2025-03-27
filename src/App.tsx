@@ -9,11 +9,13 @@ import Academy from "./pages/Academy/Academy.tsx";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop.tsx";
 import VFacs from "./pages/VFacs/VFacs.tsx";
 // import NotFound from "./pages/404/NotFound.tsx";
+import GeorgLent from "./components/GeorgLent/GeorgLents.tsx";
 
 function App() {
   return (
     <>
       <BrowserRouter basename="/interactive-board">
+        <GeorgLent />
         <ScrollToTop /> {/* Компонент, который ничего не рендерит просто отрабатывает условия поднятие стр вверх*/}
         <HeaderComponent/>
         <Routes>
